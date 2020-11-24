@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ATSUSHI OHYA / 大屋　敦士</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap"
+      rel="stylesheet">
+
+    <script type="text/javascript" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_menu">
+        <ul>
+          <li><a href="#profile">profile</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="top_wrapper">
+      <div class="top_img">
+        <img src="img/top_text.png" >
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="profile_wrapper">
+        <div  id="profile"  class="profile_title">
+          <h2>profile</h2>
+        </div>
+        <div class="profile_flex">
+          <div class="profile_left">
+            <img src="img/face.png" alt="profile image">
+            <h3 class="name">Ohya Atushi <br>大屋 敦士</h3>
+          </div>
+          <div class="profile_right">
+            <table>
+              <tr>
+                <th>年齢</th>
+                <td>21歳</td>
+              </tr>
+              <tr>
+                <th>学歴</th>
+                <td>群馬工業高等専門学校電子情報工学科　卒業
+                  <br>山梨大学工学部 在学中</td>
+              </tr>
+              <tr>
+                <th>職種</th>
+                <td>HTML/CSS/javascriptコーディング、
+                  <br class="brsp_415">LPページ作成</td>
+              </tr>
+              <tr>
+                <th>好きなこと</th>
+                <td>車・バイク・登山</td>
+              </tr>
+              <tr>
+                <th>フリーランスを<br>始めるきっかけ</th>
+                <td>
+                  <ul>
+                    <li>雪山、海外登山にはお金と時間が必要</li>
+                    <li>時間を自由に使いながら収入を得たい</li>
+                    <li class="arrow"></li>
+                    <li>フリーランスで自由と収入の両立を目指そう！</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div id="skills" class="skills_wrapper">
+        <div class="skill_title">
+          <h2>Skills</h2>
+        </div>
+        <div class="skills_flex">
+          <div class="skill_1 skill_item">
+            <h3>html/css/javascript</h3>
+            <p>LPページ、Webサイトのコーディング</p>
+            <div class="graph">
+              <span class="bar"><span class="value">70%</span></span>
+            </div>
+          </div>
+          <div class="skill_2 skill_item">
+            <h3>Webデザイン</h3>
+            <p>学習中...</p>
+            <div class="graph">
+              <div class="bar"></div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div id="works" class="works_wrapper">
+        <div class="works_title">
+          <h2>Works</h2>
+        </div>
+        <div class="works_item">
+          <div class="item1">
+            <h6>iSaraさんのサイト模写</h6>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="contact" class="contact_wrapper">
+        <div class="contact_title">
+          <h2>Contacts</h2>
+        </div>
+        <div class="contact_item">
+          <table>
+            <tr>
+              <th>e-mail</th>
+              <td>
+                <input id="copyTarget" type="text" value="ohyaatsushiworks@gmail.com" readonly>
+                <button onclick="copyToClipboard()">Copy e-mail address</button>
+              </td>
+            </tr>
+            <tr>
+              <th>電話番号</th>
+              <td>07021527570</td>
+            </tr>
+          </table>
+        </div>
+        <div class="contact_notice">
+          <p>※今後、必要に応じてSlack, Twitter, Facebook等の
+            ツールを使えるようにしていく予定です</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <p>Copyright © 2020 Atsushi Ohya.</p>
+    </div>
+
+  </body>
+</html>
