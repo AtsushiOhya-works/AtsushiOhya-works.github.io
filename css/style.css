@@ -309,13 +309,46 @@ body {
   }
 }
 
+/*Works*/
+.works_wrapper{
+  background-color: #faf0e6;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
 /*contact*/
 .contact_wrapper{
+  width: 100%;
   height: 200px;
+  background-color: #faf0e6;
+}
+.contact_title{
+  text-align: center;
+}
+.contact_item table{
+  text-align: center;
+}
+.contact_item th{
+  width: 75px;
+}
+.contact_item input{
+  outline: none;
+  border: none;
+}
+@media screen and (max-width: 960px) {
+  .contact_wrapper{
+    height: 300px;
+  }
+}
+@media screen and (max-width: 415px) {
+
 }
 
 /*footer*/
 .footer{
+  background-color: #faf0e6;
   text-align: center;
   color: grey;
 }
